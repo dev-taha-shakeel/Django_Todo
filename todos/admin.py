@@ -1,6 +1,7 @@
 from django.contrib import admin
 
-from .models import todo, users
+from .models import todo
+from .model_user import users
 
 # Register your models here.
 
